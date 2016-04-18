@@ -18,6 +18,14 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Map.cpp" />
+    <ClCompile Include="task08b.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Map.hpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{646686A7-B560-4E8A-92B2-C343B068F333}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
@@ -141,14 +149,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\..\..\..\..\..\Install\Filip_Projects\Filip_Programs\ShortestPath\Shortest_Path\src\main.cpp" />
-    <ClCompile Include="..\..\..\..\..\..\..\Install\Filip_Projects\Filip_Programs\ShortestPath\Shortest_Path\src\Map.cpp" />
-    <ClCompile Include="..\..\..\..\..\..\..\Install\Filip_Projects\Filip_Programs\ShortestPath\Shortest_Path\src\task08b.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\..\..\..\..\..\Install\Filip_Projects\Filip_Programs\ShortestPath\Shortest_Path\src\Map.hpp" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

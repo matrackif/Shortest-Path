@@ -15,18 +15,18 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\..\..\..\Install\Filip_Projects\Filip_Programs\ShortestPath\Shortest_Path\src\main.cpp">
+    <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\..\Install\Filip_Projects\Filip_Programs\ShortestPath\Shortest_Path\src\Map.cpp">
+    <ClCompile Include="Map.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\..\Install\Filip_Projects\Filip_Programs\ShortestPath\Shortest_Path\src\task08b.cpp">
+    <ClCompile Include="task08b.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\..\..\..\..\Install\Filip_Projects\Filip_Programs\ShortestPath\Shortest_Path\src\Map.hpp">
+    <ClInclude Include="Map.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
